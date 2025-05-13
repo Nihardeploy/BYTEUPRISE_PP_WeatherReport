@@ -1,3 +1,4 @@
+
 import requests
 
 API_KEY = "7f9df110ecc0aae10af67b778b0aed49"  # Replace with your OpenWeatherMap API key
@@ -20,5 +21,6 @@ if response.status_code == 200:
     print(f"Condition: {weather['description'].title()}")
 else:
     print("City not found. Please check the name.")
+
 
 
